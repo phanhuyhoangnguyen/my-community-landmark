@@ -1,0 +1,28 @@
+{
+  "name": "my-community-landmark",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Phan Huy Hoang Nguyen",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "webpack serve --mode development --env development",
+    "build": "webpack --watch",
+    "start:dev": "webpack serve --progress"
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "webpack": "^5.26.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
